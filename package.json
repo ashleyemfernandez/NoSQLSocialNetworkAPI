@@ -1,0 +1,19 @@
+{
+    "name": "NoSQLSocialNetworkAPI",
+    "description": "",
+    "version": "1.0.0",
+    "main": "server.js",
+    "devDependencies": {},
+   
+    "keywords": [],
+    "license": "MIT",
+    
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^7.4.3"
+    },
+    "scripts": {
+      "seed": "node utils/seed",
+      "start": "node server.js"
+    }
+  }
